@@ -1,0 +1,128 @@
+.Home-section{
+    padding: 100px 50px 40px 50px;
+    margin: 20px 8% auto;
+}
+    
+.title{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+.product-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.product-container img{
+    width: 100%;
+    height: auto;
+}
+
+.picprocon1 .picprocon2 .picprocon3{
+    /* เพื่อให้ <h3> สามารถอยู่ซ้อนกับภาพได้ */
+    position: relative;  
+    width: 30%;
+}
+
+.product-item{
+    position: relative;
+}
+
+.title-pro{
+    position: absolute;
+    bottom: 10px; /* ปรับระยะห่างจากขอบล่างตามต้องการ */
+    left: 0;
+    width: 100%;
+    font-size: 24px;
+    text-align: center;
+    display: block;   
+    color: white;
+    background-color: #333;
+}
+
+.product-item:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* PR */
+
+.hidden {
+    display: none;
+  }
+
+/* .hiddenButtom{
+    display: none;
+} */
+
+.titlePR{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+.Home-section-PR{
+    padding: 150px 50px 40px 50px;
+    margin: 20px 8% auto;
+}
+
+.product-container-PR{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* อนุญาตให้ภาพในแถวถัดไปเมื่อไม่พอดี */
+    gap: 20px;
+
+    flex: 1 1 calc(22% - 20%); /* แสดง 5 ชิ้นต่อแถว (20% ของความกว้าง) */
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.product-PR-item{
+    position: relative;
+}
+
+.product-PR-item img{
+    width: 100%;
+    height: auto;
+    object-fit: contain; /* ปรับขนาดภาพให้พอดีกับ container โดยไม่บิดเบือน */
+    
+}
+
+.product-PR-item:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.title-proPR{
+    position: absolute;
+    bottom: 10px; /* ปรับระยะห่างจากขอบล่างตามต้องการ */
+    left: 0;
+    width: 100%;
+    font-size: 18px; /* ปรับขนาดตัวอักษรให้เหมาะสม */
+    text-align: center;
+    background-color: #333;
+    color: white;
+}
+
+/* .seeallButtom{
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    display: block;
+    margin: 20px auto;
+    z-index: 10;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.seeallButtom:hover{
+    background-color: rgb(255, 0, 0);
+    transform: scale(1.05);
+} */
